@@ -29,9 +29,6 @@
     <nav class="navbar">
         <div class="container">
             <a href="index.html" class="logo" onclick="scrollToTop(event)">
-                <div class="logo-icon">
-                    <span>X</span>
-                </div>
                 <span class="logo-text">integrateXpro</span>
             </a>
             <ul class="nav-links" id="navLinks">
@@ -146,11 +143,16 @@
                     <h3 class="service-title">Asset Management</h3>
                     <p class="service-description">
                         Intelligent portfolio management and optimization tools powered by data analytics. 
-                        Maximize returns while managing risk through sophisticated strategies.
+                        Maximize returns while managing risk through sophisticated strategies and real-time insights.
                     </p>
+                    <ul class="service-features">
+                        <li><span class="check-icon">✓</span> Portfolio Analytics</li>
+                        <li><span class="check-icon">✓</span> Risk Assessment</li>
+                        <li><span class="check-icon">✓</span> Performance Tracking</li>
+                    </ul>
                     <div class="service-tags">
-                        <span class="tag">Portfolio Analytics</span>
-                        <span class="tag">Risk Assessment</span>
+                        <span class="tag">Analytics</span>
+                        <span class="tag">Optimization</span>
                     </div>
                 </div>
 
@@ -167,10 +169,14 @@
                         End-to-end IT solutions from infrastructure design to cloud migration and cybersecurity. 
                         Build resilient, scalable systems that drive digital transformation.
                     </p>
+                    <ul class="service-features">
+                        <li><span class="check-icon">✓</span> Cloud Solutions</li>
+                        <li><span class="check-icon">✓</span> Cybersecurity</li>
+                        <li><span class="check-icon">✓</span> DevOps & Automation</li>
+                    </ul>
                     <div class="service-tags">
-                        <span class="tag">Cloud Solutions</span>
-                        <span class="tag">Cybersecurity</span>
-                        <span class="tag">DevOps</span>
+                        <span class="tag">Infrastructure</span>
+                        <span class="tag">Security</span>
                     </div>
                 </div>
             </div>
@@ -270,7 +276,7 @@
                     </div>
                     
                     <div class="trust-badges">
-                        <span>Trusted by leading enterprises worldwide</span>
+                        <span>Or fill below form and we'll get back to you within 24 hours</span>
                     </div>
                 </div>
                 
@@ -291,7 +297,7 @@
                             </div>
                             <div class="form-group">
                                 <select name="service" required>
-                                    <option value="">Select Service</option>
+                                    <option value="" disabled selected hidden>Select Service</option>
                                     <option value="ma">Mergers & Acquisitions</option>
                                     <option value="asset">Asset Management</option>
                                     <option value="it">IT Services</option>
@@ -331,7 +337,6 @@
             <div class="footer-content">
                 <div class="footer-brand">
                     <a href="index.html" class="logo">
-                        <div class="logo-icon"><span>X</span></div>
                         <span class="logo-text">integrateXpro</span>
                     </a>
                     <p>Transforming businesses through intelligent integration</p>
