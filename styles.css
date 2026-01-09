@@ -141,7 +141,7 @@ body {
 }
 
 .logo-img {
-    height: 40px;
+    height: 32px;
     width: auto;
     display: block;
 }
@@ -1143,6 +1143,10 @@ section {
     
     .mobile-menu-btn {
         display: flex;
+    }
+    
+    .logo-img {
+        height: 26px;
     }
     
     .hero-title {
